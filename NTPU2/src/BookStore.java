@@ -25,7 +25,7 @@ public class BookStore {
         }
         if (foundCustomer == null)  throw new IllegalArgumentException("Müşteri bulunamadı.");
 
-        String bookName = "Satr anç";
+        String bookName = "Satranç";
         Book foundBook = null;
         for (Book bk : books) {
             if (bk.getName().equals(bookName)) {
